@@ -93,6 +93,6 @@ analytical solution around a flat plate is available. Thus, the pressure values 
 
 Use + for the upper surface and − for the lower surface.
 
-$v_{flat} =U_\infty \left(\cos{\left( AoA\right) \pm \sin{\left( AoA\right)}\right) \sqrt{\frac{L - 2 \xi}{L + 2 \xi}}$
+$$v_{flat} =U_\infty \left(\cos{\left( AoA\right) \pm \sin{\left( AoA\right)}\right) \sqrt{\frac{L - 2 \xi}{L + 2 \xi}}$$
 
 
