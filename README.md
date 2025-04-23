@@ -14,6 +14,27 @@ The conformal mapping method is a method that is based on mapping the analytical
 
 ---
 
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/airfoil-conformal-mapping
+cd airfoil-conformal-mapping
+pip install -r requirements.txt
+```
+
+To run the example and generate the plots:
+
+```bash
+python example1.py
+```
+
+To launch the interactive GUI:
+```bash
+python example2.py
+```
+
 ## 🔧 What This Repository Includes
 
 #### ✅ Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
@@ -31,7 +52,7 @@ and the available plot keywords are
 | Keyword                | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
 | `'grid'`               | Displays the evaluation grid before and after the conformal transformation |
-| `'streamlines'`        | Shows the streamlines of the potential flow around the circle and airfoil               |
+| `'streamlines'`        | Shows the streamlines around the circle and airfoil               |
 | `'velocity'`           | Quiver plot of the velocity field in the both domains                     |
 | `'pressure'`           | Contour plot showing the pressure field around the airfoil                   |
 | `'pressure_distribution'` | Line plot showing pressure coefficient *Cₚ* along the airfoil surface        |
@@ -45,7 +66,7 @@ Utilizing these keywords, the following plots can be obtained.
 | **Velocity**    | <div align="center"><img src="Plots/Figure_Velocity.png" width="100%"></div>            |**(A)** shows the evaluation points by using the `'grid'` keyword, while **(B)** and **(C)** visualize the velocity vectors using the `'velocity'` keyword. |
 | **Pressure**    | <div align="center"><img src="Plots/PressurePlot2.png" width="100%"></div>              | **(A)** shows the contour plot of pressure obtained by `'pressure'` keyword and **(B)** shows the pressure values along airfoil using the `'pressure_distribution'` keyword. |
 
-The example code `example1.py` shows this procedure throughly. There, these figures are generated. 
+The example code `example1.py` demonstrates this procedure thoroughly.
 
 ## 🌟 My Additional Contributions
 
@@ -99,4 +120,4 @@ where the sign is positive when it is the upper surface and negative when lower.
   <img src="Plots/Validation.png" alt="Validation" width="400"/>
 </p>
 
-Altough the solutions seem to match in the middle, they are deviating towards the end. These might be caused by the numerical effects during the procedure. The grid is tuned to be finer. However, these deviations remained.
+Although the solutions seem to match in the middle, they are deviating towards the end. These might be caused by the numerical effects during the procedure. The grid is tuned to be finer. However, these deviations remained.
