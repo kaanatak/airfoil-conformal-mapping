@@ -83,5 +83,5 @@ User-friendly: Simplifies exploration of the Joukowski transform by providing in
 #### 📈 Example
 The following screenshots illustrate the GUI in action. Users can adjust the generating circle's parameters and observe how the airfoil shape and flow field change in real-time.
 
-<p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface showing airfoil modification" width="400"/> </p>
+<p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface showing airfoil modification" width="800"/> </p>
 
