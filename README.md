@@ -80,16 +80,22 @@ To enhance the user experience, I developed a Graphical User Interface (GUI) tha
 #### 📈 Example
 The following screenshots illustrate the GUI in action. Users can adjust the generating circle's parameters and observe how the airfoil shape and flow field change in real-time.
 
-<p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface showing airfoil modification" width="800"/> </p>
+<p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface" width="800"/> </p>
 
 The activation of the GUI can be seen in the example code `example2.py`. 
 
 
 ### 3. Validation on a Flat Plate
 
-When the circle is at the origin with the uniform radius, it results in a flat plate. The
-analytical solution around a flat plate is available. Thus, the pressure values are examined. The velocity at the flat plate can be calculated analytically as: 
+When the circle is at the origin with the uniform radius, it results in a flat plate. The analytical solution around a flat plate is available.  The velocity at the flat plate can be calculated analytically as: 
 
 $$
 v_{\text{flat}} = U_\infty \left( \cos(\text{AoA}) \pm \sin(\text{AoA}) \right) \sqrt{\frac{L - 2 \xi}{L + 2 \xi}}
 $$
+where the sign is positive when it is the upper surface and negative when lower. The pressure differences between upper and lower surfaces $\Delta C_p = C_p^{low} - C_p^{up}$ can be calculated as seen in the figure below:
+
+<p align="center">
+  <img src="Plots/Validation.png" alt="Validation" width="400"/>
+</p>
+
+Altough the solutions seem to match in the middle, they are deviating towards the end. These might be caused by the numerical effects during the procedure. The grid is tuned to be finer. However, these deviations remained.
