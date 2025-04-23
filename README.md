@@ -44,13 +44,15 @@ Utilizing these keywords, the following plots can be obtained.
 | **Pressure**    | <div align="center"><img src="Plots/PressurePlot2.png" width="100%"></div>              | **(A)** shows the contour plot of pressure obtained by `'pressure'` keyword and **(B)** shows the pressure values along airfoil using the `'pressure_distribution'` keyword. |
 
 
-## 🌟 My Additional Contribution: Inverse Design Optimization
+## 🌟 My Additional Contributions
 
-### 🎯 Goal
+### 1. Inverse Design Optimization
+
+#### 🎯 Goal
 
 Given a set of airfoil boundary points (generated via a Joukowski transform), automatically **find the optimal parameters of the generating circle** that best match this airfoil.
 
-### 🧠 Methodology
+#### 🧠 Methodology
 
 I developed an optimization algorithm using `scipy.optimize` that:
 
@@ -59,10 +61,27 @@ I developed an optimization algorithm using `scipy.optimize` that:
 - Uses: mean squared error between the generated airfoil and target points
 - Assumes: airfoil is created via a Joukowski transform
 
-### 📈 Example
+#### 📈 Example
 
 <p align="center">
   <img src="Plots/Figure_Fitting.png" alt="Optimized vs target airfoil" width="400"/>
 </p>
 
 *The algorithm
+
+### 2. Real-time GUI for Conformal Mapping Visualization
+
+#### 🎯 Goal
+To enhance the user experience, I developed a Graphical User Interface (GUI) that allows real-time visualization of the conformal mapping process, including changes in airfoil shape, velocity, pressure distribution, and streamlines. The GUI provides interactive sliders and input fields to adjust parameters and see their impact on the airfoil and flow field.
+
+#### 🧠 Features
+Interactive Controls: Sliders for adjusting parameters like the generating circle's radius, position, and other characteristics.
+Real-time Updates: Visualization updates instantly as parameters change, allowing users to observe the effect of different parameters on the airfoil and flow.
+Dynamic Plots: The GUI displays the computational grid, velocity field, pressure contours, and streamlines directly on the interface.
+User-friendly: Simplifies exploration of the Joukowski transform by providing intuitive graphical elements and immediate feedback.
+
+#### 📈 Example
+The following screenshots illustrate the GUI in action. Users can adjust the generating circle's parameters and observe how the airfoil shape and flow field change in real-time.
+
+<p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface showing airfoil modification" width="400"/> </p>
+
