@@ -2,7 +2,7 @@
 
 ### ✈️ Conformal Mapping for Airfoil Lift Calculation
 
-This repository implements and extends the conformal mapping method for computing lift over airfoils, following the classic Joukowski transform approach as taught in the lesson 6 assignment in [AeroPython](https://github.com/barbagroup/AeroPython) project.
+This repository implements the conformal mapping method for computing lift over airfoils. The conformal mapping method is a method that is based on mapping the analytical solution of a flow around a circle to an airfoil shape to obtain lift. Rather than discretizing the airfoil, this method aims to fit an airfoil with a Joukowsky transformation applied on a circle. The solution on the circle, thus, can also be transformed into the airfoil. Hence, this method avoids the errors caused by the discretization but is limited with the 2D lift calculation and cannot calculate the drag force. The code is based on the procedure provided in the lesson 6 assignment in [AeroPython](https://github.com/barbagroup/AeroPython) project.
 
 > 📚 Based on:  
 > **Barba, Lorena A., & Mesnard, Olivier (2019)**.  
@@ -16,11 +16,11 @@ This repository implements and extends the conformal mapping method for computin
 
 ### ✅ Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
 - Joukowski transformation from a circle to an airfoil
-- Flow around a circle (complex potential, velocity field)
+- Calculation of the streamlines and velocities
 - Conformal mapping to an airfoil and flow visualization
-- Lift calculation using the Kutta–Joukowski theorem
+- Pressure calculation utilizing Bernoulli
 
-The visualizations presented in the original [AeroPython](https://github.com/barbagroup/AeroPython) assignment are fully available in this project. After solving the conformal mapping problem, you can generate each plot with a simple call to the `.plot()` method of the `ConformalMapping` class. An example call to this method is below
+The visualizations presented in the original [AeroPython](https://github.com/barbagroup/AeroPython) assignment are generated in this project. After solving the conformal mapping problem, you can generate each plot with a simple call to the `.plot()` method of the `ConformalMapping` class. An example call to this method is below
 ```
 cmapping.plot('<keyword>')
 ```
@@ -28,9 +28,9 @@ and the available plot keywords are
 
 | Keyword                | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
-| `'grid'`               | Displays the computational grid before and after the conformal transformation |
-| `'streamlines'`        | Shows the streamlines of the potential flow around the airfoil               |
-| `'velocity'`           | Quiver plot of the velocity field in the physical domain                     |
+| `'grid'`               | Displays the evaluation grid before and after the conformal transformation |
+| `'streamlines'`        | Shows the streamlines of the potential flow around the circle and airfoil               |
+| `'velocity'`           | Quiver plot of the velocity field in the both domains                     |
 | `'pressure'`           | Contour plot showing the pressure field around the airfoil                   |
 | `'pressure_distribution'` | Line plot showing pressure coefficient *Cₚ* along the airfoil surface        |
 
@@ -43,6 +43,7 @@ Utilizing these keywords, the following plots can be obtained.
 | **Velocity**    | <div align="center"><img src="Plots/Figure_Velocity.png" width="100%"></div>            |**(A)** shows the evaluation points by using the `'grid'` keyword, while **(B)** and **(C)** visualize the velocity vectors using the `'velocity'` keyword. |
 | **Pressure**    | <div align="center"><img src="Plots/PressurePlot2.png" width="100%"></div>              | **(A)** shows the contour plot of pressure obtained by `'pressure'` keyword and **(B)** shows the pressure values along airfoil using the `'pressure_distribution'` keyword. |
 
+The example code `example1.py` shows this procedure throughly. There, these figures are generated. 
 
 ## 🌟 My Additional Contributions
 
@@ -79,3 +80,4 @@ The following screenshots illustrate the GUI in action. Users can adjust the gen
 
 <p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface showing airfoil modification" width="800"/> </p>
 
+The activation of the GUI can be seen in the example code `example2.py`. 
