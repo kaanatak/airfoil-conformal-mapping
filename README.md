@@ -62,7 +62,7 @@ I developed an optimization algorithm using `scipy.optimize` that:
 ### 📈 Example
 
 <p align="center">
-  <img src="figures/Figure_Fitting.png" alt="Optimized vs target airfoil" width="400"/>
+  <img src="Plots/Figure_Fitting.png" alt="Optimized vs target airfoil" width="400"/>
 </p>
 
 *The algorithm
