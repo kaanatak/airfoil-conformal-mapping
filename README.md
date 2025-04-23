@@ -19,7 +19,7 @@ The conformal mapping method is a method that is based on mapping the analytical
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/airfoil-conformal-mapping
+git clone https://github.com/kaanatak/airfoil-conformal-mapping
 cd airfoil-conformal-mapping
 pip install -r requirements.txt
 ```
