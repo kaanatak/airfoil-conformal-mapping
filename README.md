@@ -16,7 +16,7 @@ The conformal mapping method is a method that is based on mapping the analytical
 
 ## 🔧 What This Repository Includes
 
-### ✅ Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
+#### ✅ Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
 - Joukowski transformation from a circle to an airfoil
 - Calculation of the streamlines and velocities
 - Conformal mapping to an airfoil and flow visualization
