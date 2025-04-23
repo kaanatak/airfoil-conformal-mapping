@@ -29,13 +29,13 @@ cmapping.plot('<keyword>')
 ```
 to generate specific visual outputs. Available plot keywords are 
 
-Keyword | Description
-'grid' | Displays the computational grid before and after the conformal transformation
-'streamlines' | Shows the streamlines of the potential flow around the airfoil
-'velocity' | Quiver plot of the velocity field in the physical domain
-'pressure' | Contour plot showing the pressure field around the airfoil
-'pressure_distribution' | Line plot showing pressure coefficient C_p​ along the airfoil surface
----
+| Keyword                | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `'grid'`               | Displays the computational grid before and after the conformal transformation |
+| `'streamlines'`        | Shows the streamlines of the potential flow around the airfoil               |
+| `'velocity'`           | Quiver plot of the velocity field in the physical domain                     |
+| `'pressure'`           | Contour plot showing the pressure field around the airfoil                   |
+| `'pressure_distribution'` | Line plot showing pressure coefficient *Cₚ* along the airfoil surface        |
 
 | Example | Plot | Description |
 |--------|------|-------------|
