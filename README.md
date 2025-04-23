@@ -39,9 +39,9 @@ Utilizing these keywords, the following plots can be obtained.
 
 | Example         | Plot                                                                                     | Description                                                                 |
 |----------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| **Streamlines** | <div align="center"><img src="Plots/Figure_Potential.png" width="100%"></div>           | **(A)** evaluation points can be generated with the `'grid'` and the streamlines of **(B)** and **(C)** can be generated with `'streamlines'` keyword. |
-| **Velocity**    | <div align="center"><img src="Plots/Figure_Velocity.png" width="100%"></div>            | **(A)** evaluation points can be generated with the `'grid'` and the velocity vectors of **(B)** and **(C)** can be generated with `'velocity'` keyword.  |
-| **Pressure**    | <div align="center"><img src="Plots/PressurePlot2.png" width="50%"></div>                |  **(A)** Pressure contour plot can be generated with the `'pressure'` and the **(B)** pressure values along the airfoil can be ploted with the `'pressure_distribution'` keyword.          |
+| **Streamlines** | <div align="center"><img src="Plots/Figure_Potential.png" width="100%"></div>           | **(A)** shows the evaluation points by using the `'grid'` keyword, while **(B)** and **(C)** visualize the streamlines using the `'streamlines'` keyword. |
+| **Velocity**    | <div align="center"><img src="Plots/Figure_Velocity.png" width="100%"></div>            |**(A)** shows the evaluation points by using the `'grid'` keyword, while **(B)** and **(C)** visualize the velocity vectors using the `'velocity'` keyword. |
+| **Pressure**    | <div align="center"><img src="Plots/PressurePlot2.png" width="100%"></div>              | **(A)** shows the contour plot of pressure obtained by `'pressure'` keyword and **(B)** shows the pressure values along airfoil using the `'pressure_distribution'` keyword. |
 
 
 ## 🌟 My Additional Contribution: Inverse Design Optimization
