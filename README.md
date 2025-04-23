@@ -39,9 +39,9 @@ Utilizing these keywords, the following plots can be obtained.
 
 | Example         | Plot                                                                                     | Description                                                                 |
 |----------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| **Streamlines** | <div align="center"><img src="Plots/Figure_Potential.png" width="100%"></div>           | The plot of the **(A)** evaluation points can be generated with the `'grid'` keyword and the streamlines of **(B)** circle and **(C)** airfoil can be generated with `'streamlines'` keyword. |
-| **Velocity**    | <div align="center"><img src="Plots/Figure_Velocity.png" width="100%"></div>            | The plot of the **(A)** evaluation points can be generated with the `'grid'` keyword and the velocity vectors of **(B)** circle and **(C)** airfoil can be generated with `'velocity'` keyword.  |
-| **Pressure**    | <div align="center"><img src="Plots/PressurePlot2.png" width="50%"></div>                | The **(A)** pressure contour plot can be generated with the `'pressure'` keyword and the **(B)** pressure values along the airfoil can be ploted with the `'pressure_distribution'` keyword.          |
+| **Streamlines** | <div align="center"><img src="Plots/Figure_Potential.png" width="100%"></div>           | **(A)** evaluation points can be generated with the `'grid'` and the streamlines of **(B)** and **(C)** can be generated with `'streamlines'` keyword. |
+| **Velocity**    | <div align="center"><img src="Plots/Figure_Velocity.png" width="100%"></div>            | **(A)** evaluation points can be generated with the `'grid'` and the velocity vectors of **(B)** and **(C)** can be generated with `'velocity'` keyword.  |
+| **Pressure**    | <div align="center"><img src="Plots/PressurePlot2.png" width="50%"></div>                |  **(A)** Pressure contour plot can be generated with the `'pressure'` and the **(B)** pressure values along the airfoil can be ploted with the `'pressure_distribution'` keyword.          |
 
 
 ## 🌟 My Additional Contribution: Inverse Design Optimization
