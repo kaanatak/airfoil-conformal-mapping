@@ -2,9 +2,12 @@
 
 ### ✈️ Conformal Mapping for Airfoil Lift Calculation
 
-This repository implements the conformal mapping method for computing lift over airfoils. 
 
-The conformal mapping method is a method that is based on mapping the analytical solution of a flow around a circle to an airfoil shape to obtain lift. Rather than discretizing the airfoil, this method aims to fit an airfoil with a Joukowsky transformation applied on a circle. The solution on the circle, thus, can also be transformed into the airfoil. Hence, this method avoids the errors caused by the discretization but is limited with the 2D lift calculation and cannot calculate the drag force. The code is based on the procedure provided in the lesson 6 assignment in [AeroPython](https://github.com/barbagroup/AeroPython) project.
+This repository implements the **conformal mapping method** for calculating lift over airfoils using analytical potential flow theory.
+
+Instead of directly discretizing an airfoil shape, this approach maps the known solution of flow around a circle onto an airfoil using the **Joukowsky transformation**. This technique allows for a smooth, analytical representation of the flow, avoiding discretization errors common in numerical methods. However, it is limited to **2D flow** and cannot predict drag forces.
+
+The implementation follows the procedure outlined in **Lesson 6** of the [AeroPython](https://github.com/barbagroup/AeroPython) project, developed by Barba & Mesnard (2019).
 
 > 📚 Based on:  
 > **Barba, Lorena A., & Mesnard, Olivier (2019)**.  
