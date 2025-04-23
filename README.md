@@ -38,7 +38,7 @@ To launch the interactive GUI:
 python example2.py
 ```
 
-## 🔧 What This Repository Includes
+## What This Repository Includes
 
 #### ✅ Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
 - Joukowski transformation from a circle to an airfoil
