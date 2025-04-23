@@ -83,3 +83,17 @@ The following screenshots illustrate the GUI in action. Users can adjust the gen
 <p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface showing airfoil modification" width="800"/> </p>
 
 The activation of the GUI can be seen in the example code `example2.py`. 
+
+
+### 3. Validation on a Flat Plate
+
+When the circle is at the origin with the uniform radius, it results in a flat plate. The
+analytical solution around a flat plate is available. Thus, the pressure values are examined. The velocity at the flat plate can be calculated analytically as:
+
+v_flat = U_inf * (cos(AoA) ± sin(AoA)) * sqrt[(L - 2ξ)/(L + 2ξ)]
+
+Use + for the upper surface and − for the lower surface.
+
+
+
+
