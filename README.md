@@ -39,9 +39,9 @@ Keyword | Description
 
 | Example | Plot | Description |
 |--------|------|-------------|
-| **Basic Plot** | ![Basic Plot](Plots/Figure_Velocity.png) | `your_function_name(data)` |
-| **Custom Color** | ![Custom Color](Plots/Figure_Potential.png) | `your_function_name(data, color="red")` |
-| **With Grid** | ![Grid Plot](Plots/PressurePlot.png) | `your_function_name(data, grid=True)` |
+| **Basic Plot** | ![Basic Plot](Plots/Figure_Velocity.pdf) | `your_function_name(data)` |
+| **Custom Color** | ![Custom Color](Plots/Figure_Potential.pdf) | `your_function_name(data, color="red")` |
+| **With Grid** | ![Grid Plot](Plots/PressurePlot.pdf) | `your_function_name(data, grid=True)` |
 
 ## 🌟 My Additional Contribution: Inverse Design Optimization
 
