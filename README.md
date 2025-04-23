@@ -92,6 +92,7 @@ When the circle is at the origin with the uniform radius, it results in a flat p
 $$
 v_{\text{flat}} = U_\infty \left( \cos(\text{AoA}) \pm \sin(\text{AoA}) \right) \sqrt{\frac{L - 2 \xi}{L + 2 \xi}}
 $$
+
 where the sign is positive when it is the upper surface and negative when lower. The pressure differences between upper and lower surfaces $\Delta C_p = C_p^{low} - C_p^{up}$ can be calculated as seen in the figure below:
 
 <p align="center">
