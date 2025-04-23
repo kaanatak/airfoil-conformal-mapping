@@ -90,10 +90,9 @@ The activation of the GUI can be seen in the example code `example2.py`.
 When the circle is at the origin with the uniform radius, it results in a flat plate. The
 analytical solution around a flat plate is available. Thus, the pressure values are examined. The velocity at the flat plate can be calculated analytically as:
 
-v_flat = U_inf * (cos(AoA) ± sin(AoA)) * sqrt[(L - 2ξ)/(L + 2ξ)]
 
 Use + for the upper surface and − for the lower surface.
 
-
+$v_{flat} =U_\infty \left(\cos{\left( AoA\right) \pm \sin{\left( AoA\right)}\right) \sqrt{\frac{L - 2 \xi}{L + 2 \xi}}$
 
 
