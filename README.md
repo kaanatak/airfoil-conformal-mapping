@@ -14,13 +14,13 @@ This repository implements and extends the conformal mapping method for computin
 
 ## 🔧 What This Repository Includes
 
-### ✅ Implemented from AeroPython
+### ✅ Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
 - Joukowski transformation from a circle to an airfoil
 - Flow around a circle (complex potential, velocity field)
 - Conformal mapping to an airfoil and flow visualization
 - Lift calculation using the Kutta–Joukowski theorem
 
-The visualizations presented in the original AeroPython assignment are fully available in this project. After solving the conformal mapping problem, you can generate each plot with a simple call to the `.plot()` method of the `ConformalMapping` class. An example call to this method is below
+The visualizations presented in the original [AeroPython](https://github.com/barbagroup/AeroPython) assignment are fully available in this project. After solving the conformal mapping problem, you can generate each plot with a simple call to the `.plot()` method of the `ConformalMapping` class. An example call to this method is below
 ```
 cmapping.plot('<keyword>')
 ```
