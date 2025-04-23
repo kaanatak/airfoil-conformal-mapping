@@ -3,7 +3,7 @@
 ### ✈️ Conformal Mapping for Airfoil Lift Calculation
 
 
-This repository implements the **conformal mapping method** for calculating lift over airfoils using analytical potential flow theory.
+This repository implements the **conformal mapping method** for calculating lift over airfoils using analytical solution around circles.
 
 Instead of directly discretizing an airfoil shape, this approach maps the known solution of flow around a circle onto an airfoil using the **Joukowsky transformation**. This technique allows for a smooth, analytical representation of the flow, avoiding discretization errors common in numerical methods. However, it is limited to **2D flow** and cannot predict drag forces.
 
