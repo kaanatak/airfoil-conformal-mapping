@@ -124,3 +124,20 @@ where the sign is positive when it is the upper surface and negative when lower.
 </p>
 
 Although the solutions seem to match in the middle, they are deviating towards the end. These might be caused by the numerical effects during the procedure. The grid is tuned to be finer. However, these deviations remained.
+
+
+## Cite this work
+
+If you use this repository or build on it, please cite it as:
+
+Kaan Atak. (2025). *Conformal Mapping for Airfoil Lift Calculation* [GitHub Repository]. [https://github.com/kaanatak/conformal-mapping-airfoil-lift](https://github.com/kaanatak/airfoil-conformal-mapping)
+
+```bibtex
+@misc{atak2025conformal,
+  author       = {Kaan Atak},
+  title        = {Conformal Mapping for Airfoil Lift Calculation},
+  year         = 2025,
+  howpublished = {\url{https://github.com/kaanatak/airfoil-conformal-mapping}},
+  note         = {GitHub repository}
+}
+
