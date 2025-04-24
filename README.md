@@ -1,6 +1,6 @@
 # airfoil-conformal-mapping
 
-### ✈️ Conformal Mapping for Airfoil Lift Calculation
+### Conformal Mapping for Airfoil Lift Calculation
 
 
 This repository implements the **conformal mapping method** for calculating lift over airfoils using analytical solution around circles.
@@ -88,7 +88,7 @@ I developed an optimization algorithm using `scipy.optimize` that:
 - Uses: mean squared error between the generated airfoil and target points
 - Assumes: airfoil is created via a Joukowski transform
 
-#### 📈 Example
+#### Example
 
 <p align="center">
   <img src="Plots/Figure_Fitting.png" alt="Optimized vs target airfoil" width="400"/>
@@ -101,7 +101,7 @@ I developed an optimization algorithm using `scipy.optimize` that:
 #### Goal
 To enhance the user experience, I developed a Graphical User Interface (GUI) that allows real-time visualization of the conformal mapping process, including changes in airfoil shape, velocity, pressure distribution, and streamlines. The GUI provides interactive sliders and input fields to adjust parameters and see their impact on the airfoil and flow field.
 
-#### 📈 Example
+#### Example
 The following screenshots illustrate the GUI in action. Users can adjust the generating circle's parameters and observe how the airfoil shape and flow field change in real-time.
 
 <p align="center"> <img src="Plots/GUI1.png" alt="GUI Interface" width="800"/> </p>
