@@ -75,11 +75,11 @@ The example code `example1.py` demonstrates this procedure thoroughly.
 
 ### 1. Inverse Joukowski Optimization
 
-#### 🎯 Goal
+#### Goal
 
 Given a set of airfoil boundary points (generated via a Joukowski transform), automatically **find the optimal parameters of the generating circle** that best match this airfoil.
 
-#### 🧠 Methodology
+#### Methodology
 
 I developed an optimization algorithm using `scipy.optimize` that:
 
@@ -98,7 +98,7 @@ I developed an optimization algorithm using `scipy.optimize` that:
 
 ### 2. Real-time GUI for Conformal Mapping Visualization
 
-#### 🎯 Goal
+#### Goal
 To enhance the user experience, I developed a Graphical User Interface (GUI) that allows real-time visualization of the conformal mapping process, including changes in airfoil shape, velocity, pressure distribution, and streamlines. The GUI provides interactive sliders and input fields to adjust parameters and see their impact on the airfoil and flow field.
 
 #### 📈 Example
