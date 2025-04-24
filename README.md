@@ -40,7 +40,7 @@ python example2.py
 
 ## What This Repository Includes
 
-#### ✅ Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
+#### Implemented from [AeroPython](https://github.com/barbagroup/AeroPython)
 - Joukowski transformation from a circle to an airfoil
 - Calculation of the streamlines and velocities
 - Conformal mapping to an airfoil and flow visualization
@@ -71,7 +71,7 @@ Utilizing these keywords, the following plots can be obtained.
 
 The example code `example1.py` demonstrates this procedure thoroughly.
 
-## 🌟 My Additional Contributions
+## My Additional Contributions
 
 ### 1. Inverse Joukowski Optimization
 
